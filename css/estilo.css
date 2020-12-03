@@ -1,0 +1,14 @@
+html,body{
+    margin: 0;
+    padding: 0;
+} 
+
+footer{
+    background-color: black;
+    color: white;
+text-align: center;
+}
+
+.card-deck{
+    text-align: center;
+}
