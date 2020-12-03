@@ -1,7 +1,10 @@
+html{
+    width: 100%;
+}
+
 body{
     margin: 0;
     padding: 0;
-    width: 99%;
 } 
 .topo{
     background-color: black;
@@ -51,6 +54,7 @@ footer{
 .logo{
     margin: 5px;
     padding: 2px;
+    justify-content: right;
 }
 
 footer p {
