@@ -93,3 +93,7 @@ svg{
 .titulo{
     text-align: center;
 }
+
+.texto{
+    margin: 10px;
+}
