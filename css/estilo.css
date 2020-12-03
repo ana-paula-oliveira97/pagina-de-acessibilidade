@@ -3,33 +3,41 @@ body{
     padding: 0;
     width: 99%;
 } 
-
-.menu img{
-    text-align: right;
+.topo{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    
+    flex-direction: column;
+    
+}
+.logo{
+    text-align: center;
+    padding: 5px;
+    height: 100px;
     width: 100px;
 }
-.menu ul{
- margin: 0;
- background-color: rgb(17, 17, 17);
- list-style: none;
- text-align: center;
- font-size: 18px;
-}
-.menu ul li{
-    display: inline;
 
-}
-.menu ul li a{
-    padding: 10px 10px;
-    display: inline-block;
-    color: white;
+.menu{
+    background-color: rgb(0, 0, 0);
+    
+    padding: 10px 1;
+    width: 100%;
+  }
+
+.menu a{
     text-decoration: none;
-    text-align: center;
-
+    color: black;
+    background-color: rgb(253, 253, 253);
+    padding: 10px;
+    display: inline-block;
+    width: 200px;
 }
 
-.logo{
-    text-align: left;
+.menu a:hover{
+    background-color: rgb(149, 214, 205);
+    color: rgb(0, 0, 0);
+
 }
 
 
@@ -58,8 +66,8 @@ footer p {
 
 
 .redes{
-justify-content: center;
-
+display: flex;
+flex-wrap: wrap;
 }
 
 .redes p{
@@ -77,7 +85,7 @@ justify-content: center;
     justify-content: center;
 }
 svg{
-  height: 60px;
+  height: 70px;
   margin: 2px;
   padding: 5px;
 }
