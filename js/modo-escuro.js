@@ -17,7 +17,7 @@ const initialColors = {
 const darkMode = {
     bg: "#0f0f0f",
     bgPanel: "#242323",
-    colorHeadings: "#3664FF",
+    colorHeadings: "#ffd900",
     colorText: "#ffffff",
     hover: "#40edce",
     rodape: "#000000"
