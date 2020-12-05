@@ -1,13 +1,13 @@
 html{
     height: 100%;
-
+    font-size: 19px;
     --bg: #FCFCFC;
     --bg-panel: #EBEBEB;
     --color-headings: #0077FF;
     --color-text: #000000;
     --hover:#ff8c8c;
     --rodape:#7d807f;
-}
+}   
 
 body{
     margin: 0;
