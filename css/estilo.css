@@ -1,13 +1,23 @@
 html{
-    width: 100%;
+    height: 100%;
+
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #0077FF;
+    --color-text: #000000;
+    --hover:#ff8c8c;
+    --rodape:#7d807f;
 }
 
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--bg);
+    color: var(--color-text); 
 } 
 .topo{
-    background-color: black;
+    background-color:var(--bg);
+        color: var(--color-text); 
     text-align: center;
     padding: 10px;
     
@@ -22,33 +32,39 @@ body{
 }
 
 .menu{
-    background-color: rgb(0, 0, 0);
-    
+    background-color:var(--bg);
+    color: var(--bg);
     padding: 10px 1;
     width: 100%;
   }
 
 .menu a{
     text-decoration: none;
-    color: black;
-    background-color: rgb(253, 253, 253);
+    color: var(--bg);
+    background-color: var(--color-text);
     padding: 10px;
     display: inline-block;
     width: 200px;
+    border:var(--bg) solid ;
 }
 
 .menu a:hover{
-    background-color: rgb(149, 214, 205);
-    color: rgb(0, 0, 0);
+    background-color: var(--hover);
+    color: var(--color-text);
 
 }
 
+input[type=checkbox]{
+    height: 50;
+    width: 50;
+
+}
 
 footer{
   position: absolute;
   width: 100%;
-  background-color: black;
-  color: white;
+  background-color: var(--rodape);
+  color: var(--bg);
 }
 
 .logo{
@@ -59,23 +75,79 @@ footer{
 
 footer p {
     margin: 2px;
+    background-color: var(--color-text);
+    color: var(--bg);
 }
 
 .fim{
     text-align: center;
+    background-color: var(--color-text);
+    color: var(--bg);
 }
 .card-deck{
     text-align: center;
+    background-color: var(--bg);
+    color: var(--color-text);
+}
+.card-text{
+    background-color: var(--bg);
+    color: var(--color-text);
 }
 
+.card-header{
+       background-color: var(--bg);
+    color: var(--color-text); 
+}
+
+.sobre{
+    background-color: var(--bg);
+    color: var(--color-text); 
+}
+.card-title{
+    background-color: var(--bg);
+    color: var(--color-text);
+}
+
+.card-deck{
+       background-color: var(--bg);
+    color: var(--color-text); 
+}
+
+.texto{
+    background-color: var(--bg);
+    color: var(--color-text); 
+}
+
+.titulo{
+    background-color: var(--bg);
+    color: var(--color-text);  
+}
+
+div{
+     background-color: var(--bg);
+    color: var(--color-text);    
+}
+p{
+    background-color: var(--bg);
+    color: var(--color-text); 
+}
 
 .redes{
 display: flex;
 flex-wrap: wrap;
+  background-color: var(--rodape);
+  color: var(--bg);
+}
+
+.rodape{
+  background-color: var(--rodape);
+ color: white;
 }
 
 .redes p{
     text-align: center;
+        background-color: var(--rodape);
+    color: var(--color-text); 
 }
 
 
