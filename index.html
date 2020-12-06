@@ -17,14 +17,15 @@
             site.
         </p>
     </noscript>
-    <input type="button" value="+" onclick="fonte(a)" />
-    <input type="button" value="-" onclick="fonte(b)" />
-    <input type="button" value="100%" onclick="fonte(c)" />
+    <div class="btn-container">
+        <button accesskey="2" name="increase-font" id="increase-font" title="Aumentar fonte">A +</button>
+        <button accesskey="3" name="decrease-font" id="decrease-font" title="Diminuir fonte">A -</button>
+    </div>
 
 
     <header class="topo">
         <div class="toggle">
-            <input id="switch" type="checkbox" name="theme">
+            <input accesskey="1" id="switch" type="checkbox" name="theme">
             <label for="switch">Toggle</label>
         </div>
         <img src="img/logo.jpg" class="logo"
@@ -32,9 +33,9 @@
 
         <nav class="menu">
             <a href="#">Ínicio</a>
-            <a href="#sobre">Sobre</a>
-            <a href="#doaçoes">Doações</a>
-            <a href="#">Contato</a>
+            <a href="#sobre" accesskey="4">Sobre</a>
+            <a href="#doaçoes" accesskey="5">Doações</a>
+            <a href="#footer" accesskey="6">Contato</a>
         </nav>
 
 
@@ -83,7 +84,7 @@
             <img src="img/2.jpg" class="card-img-top"
                 alt="foto de um cachorro em preto em branco, o cachorro esta aparentimente abandonado, no chão podemos ver pedaços de madeira e o olhar do cachorro explesa tristesa e medo">
             <div class="card-body">
-                <h5 class="card-title">Adote</h5>
+                <h5 class="card-title" title="Contraste (Alt+C)" accesskey="c">Adote</h5>
                 <p class="card-text">Agradecemos seu interesse em adotar um cão sem dono. Prepare-se para uma
                     experiência gratificante que durará muitos
                     anos. Eles não merecem ser tratados com desprezo.</p>
@@ -160,7 +161,7 @@
 
                 <h2 class="titulo">Sua ajuda será a diferença para muitos animais! </h2>
             </div>
-            <footer>
+            <footer id="footer">
                 <p class="rodape">Como nos encontrar pelas redes sociais.</p>
                 <div class="redes">
                     <!--face-->
@@ -205,6 +206,19 @@
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
                 crossorigin="anonymous"></script>
+
+            <!-- Conteúdo da página -->
+
+            <div vw class="enabled">
+                <div vw-access-button class="active"></div>
+                <div vw-plugin-wrapper>
+                    <div class="vw-plugin-top-wrapper"></div>
+                </div>
+            </div>
+            <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+            <script>
+                new window.VLibras.Widget('https://vlibras.gov.br/app');
+            </script>
 </body>
 
 </html>
