@@ -24,7 +24,7 @@ body{
 
 .topo{
     background-color:var(--bg);
-        color: var(--color-text); 
+    color: var(--color-text); 
     text-align: center;
     padding: 10px;
     
