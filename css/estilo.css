@@ -15,6 +15,7 @@ body{
     background-color: var(--bg);
     color: var(--color-text); 
     font-size: 16px;
+    width: 100%;
 } 
 
 .btn-container{
@@ -109,9 +110,12 @@ footer{
 }
 
 .logo{
+    width: 130px;
+    height: 130px;
     margin: 5px;
     padding: 2px;
-    justify-content: right;
+    display: flex;
+    float: left;
 }
 
 
@@ -121,10 +125,14 @@ footer{
   background-color: var(--rodape);
  color: white;
 }
+
+
+
 .card-deck{
     text-align: center;
     background-color: var(--bg);
     color: var(--color-text);
+    width: 100%;
 }
 .card-text{
     background-color: var(--bg);
